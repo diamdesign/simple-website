@@ -4,69 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recept - Vego Pankakor</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Recept - Vego Pankakor</h1>
-    </header>
-    <img
-      src="https://th.bing.com/th/id/OIP.v46-GWiCgyp6YdOtj1fA3QHaEK?w=321&h=181&c=7&r=0&o=5&pid=1.7"
-      alt="Vegansk Pankaka"
-    />
-    <img
-      src="data:image/jpeg;base64,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"
-      alt=""
-    />
-    <section>
-      <h2>Ingredienser</h2>
-      <ul>
-        <li>3dl mjöl</li>
-        <li>3dl mandelmjölk</li>
-        <li>1 tesked salt</li>
-        <li>1 tesked matolja/olivolja</li>
-        <li>1 tesked ljus sirap (valfritt)</li>
-        <li>1 matsked bakpulver</li>
-        <li>1 matsked vaniljsocker</li>
-        <li>0.5dl socker</li>
-        <li>50g veganskt margarin</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Såhär gör du</h2>
-      <ul>
-        <li>
-          Börja med hälla i alla torra ingredienser i en bunke och rör om. Mjöl,
-          salt, bakpulver, vaniljsocker, socker.
-        </li>
-        <li>Häll i mandelmjölken medans du vispar om.</li>
-        <li>
-          Stek margarinet och häll i tillsammans med sirap och matolja, och rör
-          om.
-        </li>
-        <li>
-          Smeten ska vara rinnande, så är den för tjock, häll i lite mer
-          havremjölk.
-        </li>
-        <li>
-          Valfritt är att låta smeten stå kallt ett stund i kylen innan ni
-          steker.
-        </li>
-        <li>Häll i lite olja i stekpannan och ha på medelhög värme.</li>
-        <li>
-          När pannan är varm, häll på lite pankakssmet som en klick i mitten och
-          sedan vinkla pannan för att låta smeten fylla hela pannan.
-        </li>
-        <li>
-          Låt steka ett tag tills smeten ser ut att ha stelnat, sedan vänd på
-          pankakan med verktyg.
-        </li>
-        <li>Se till att få lite färg (men inte brännt)</li>
-        <li>Serveras med jordgubbssylt.</li>
-        <li>
-          <em><strong>Varning</strong></em> Är extra mättande med mandelmjölken.
-        </li>
-      </ul>
-    </section>
+    <div id="container">
+      <header>
+        <h1>Recept - Vego Pankakor</h1>
+      </header>
+      <img
+        src="https://th.bing.com/th/id/OIP.v46-GWiCgyp6YdOtj1fA3QHaEK?w=321&h=181&c=7&r=0&o=5&pid=1.7"
+        alt="Vegansk Pankaka"
+      />
+      <img
+        src="https://th.bing.com/th/id/OIP.-9sN6sqI_jMfS1kfns2a8QHaEj?w=292&h=180&c=7&r=0&o=5&pid=1.7"
+        alt="Vegansk Pankaka"
+      />
+      <section>
+        <h2>Ingredienser</h2>
+        <ul>
+          <li>3dl mjöl</li>
+          <li>3dl mandelmjölk</li>
+          <li>1 tesked salt</li>
+          <li>1 tesked matolja/olivolja</li>
+          <li>1 tesked ljus sirap (valfritt)</li>
+          <li>1 matsked bakpulver</li>
+          <li>1 matsked vaniljsocker</li>
+          <li>0.5dl socker</li>
+          <li>50g veganskt margarin</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Såhär gör du</h2>
+        <ul>
+          <li>
+            Börja med hälla i alla torra ingredienser i en bunke och rör om.
+            Mjöl, salt, bakpulver, vaniljsocker, socker.
+          </li>
+          <li>Häll i mandelmjölken medans du vispar om.</li>
+          <li>
+            Stek margarinet och häll i tillsammans med sirap och matolja, och
+            rör om.
+          </li>
+          <li>
+            Smeten ska vara rinnande, så är den för tjock, häll i lite mer
+            havremjölk.
+          </li>
+          <li>
+            Valfritt är att låta smeten stå kallt ett stund i kylen innan ni
+            steker.
+          </li>
+          <li>Häll i lite olja i stekpannan och ha på medelhög värme.</li>
+          <li>
+            När pannan är varm, häll på lite pankakssmet som en klick i mitten
+            och sedan vinkla pannan för att låta smeten fylla hela pannan.
+          </li>
+          <li>
+            Låt steka ett tag tills smeten ser ut att ha stelnat, sedan vänd på
+            pankakan med verktyg.
+          </li>
+          <li>Se till att få lite färg (men inte brännt)</li>
+          <li>Serveras med jordgubbssylt.</li>
+          <li>
+            <em><strong>Varning</strong></em> Är extra mättande med
+            mandelmjölken.
+          </li>
+        </ul>
+      </section>
+    </div>
     <footer>Copyright (c) 2023 Vego Food Truck</footer>
   </body>
 </html>
